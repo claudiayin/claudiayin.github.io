@@ -41,7 +41,7 @@ body {
     transform: translateZ(-0.5px) scale(1.5,1.6) translate(-33%, 10%);
 }
 .section2 {
-    background: pink;
+    background:grey;
     width: 100%;
     height: 20%;
 }
