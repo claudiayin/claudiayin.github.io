@@ -6,7 +6,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background: ivory;
+    background: #222;
     perspective: 1px;
     transform-style: preserve-3d;
     overflow-x: hidden;
