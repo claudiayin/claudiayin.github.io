@@ -55,7 +55,7 @@ body {
     height: 100%;
     position: absolute;
     background: url(img/hamster3.png)left center;
-    background-size: cover;
+    background-size: contain;
     transform: translateZ(01px)scale(2.2);
     filter: blur(2px);
 }
@@ -65,7 +65,7 @@ body {
     height: 100%;
     position: absolute;
     background: url(img/hamster3.png)left center;
-    background-size: cover;
+    background-size: auto;
 }
 .text {
     top: 30%;
