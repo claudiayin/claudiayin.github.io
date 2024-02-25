@@ -5,5 +5,5 @@ window.addEventListener(("scroll"),()=>{
     document.querySelector("#mainCloud").style.marginTop = `-${window.scrollY}px`
     document.querySelector("#rightCloud").style.marginRight =`-${window.scrollY}px`
     document.querySelector("#hamsterCloud").style.marginTop =`-${window.scrollY}px`
-    document.querySelector("#hamsterCloud2").style.marginTop =`-${window.scrollY * 2.2}px`
+    document.querySelector("#hamsterCloud2").style.marginTop =`-${window.scrollY * 3.2}px`
 })
