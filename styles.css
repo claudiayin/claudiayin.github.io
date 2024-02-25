@@ -42,7 +42,8 @@ body {
 }
 #leftCloud,
 #mainCloud,
-#rightCloud {
+#rightCloud,
+#hamsterCloud {
     top: 120px;
     width: 200px;
 }
@@ -51,6 +52,9 @@ body {
 }
 #rightCloud{
     right: 20px;
+}
+#hamsterCloud{
+    bottom: 20px;
 }
 @keyframes loadAnimation {
     0% { 
