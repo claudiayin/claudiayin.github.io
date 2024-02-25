@@ -1,5 +1,5 @@
 * {
- font-family: "Kode Mono" monospace;
+ font-family: "Anta", sans-serif;
  font-weight: 400;
  font-style: normal;
  color: white;  
@@ -19,7 +19,7 @@ body {
     align-items: center;
     overflow: hidden;
 }
-#Home h1{
+#Home h1 {
     font-family: "Kode Mono", monospace;
     color: white;
     position: absolute;
