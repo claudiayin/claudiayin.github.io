@@ -19,7 +19,7 @@ body {
     align-items: center;
     overflow: hidden;
 }
-.slogan h2 {
+h2 {
     font-family: "Kode Mono", monospace;
     color: white;
     position: absolute;
