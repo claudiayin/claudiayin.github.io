@@ -26,6 +26,11 @@ body {
     z-index: 2;
     margin-top: 10px; 
 }
+#Logo {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+}
 #Home img {
     position: absolute;
     bottom: 0px;
