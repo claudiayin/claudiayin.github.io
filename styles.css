@@ -67,6 +67,8 @@ body {
 }
 #LogoCloud {
     top: 340px;
+    width: 400;
+    height: auto;
 }
 @keyframes loadAnimation {
     0% { 
