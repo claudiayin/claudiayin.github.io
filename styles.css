@@ -19,7 +19,7 @@ body {
     align-items: center;
     overflow: hidden;
 }
-#Home h1 {
+#Home h1, #Logo {
     color: white;
     position: absolute;
     font-size: 50px;
