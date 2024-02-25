@@ -54,7 +54,7 @@ body {
     right: 20px;
 }
 #hamsterCloud{
-    bottom: 70px;
+    top: 70px;
     left: 50px;
 }
 @keyframes loadAnimation {
