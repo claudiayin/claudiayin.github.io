@@ -19,19 +19,12 @@ body {
     align-items: center;
     overflow: hidden;
 }
-#Home h1, #Logo {
+#Home h1, {
     color: white;
     position: absolute;
     font-size: 50px;
     z-index: 2;
-    margin-top: 10px; 
-}
-#Logo {
-    position: absolute;
-    z-index: 2;
-    margin-top: 10px;
-    justify-content: center;
-    right: 500px;
+
 }
 #Home img {
     position: absolute;
@@ -53,7 +46,8 @@ body {
 #mainCloud,
 #rightCloud,
 #hamsterCloud,
-#hamsterCloud2 {
+#hamsterCloud2,
+#LogoCloud {
     top: 120px;
     width: 200px;
 }
@@ -70,6 +64,9 @@ body {
 #hamsterCloud2{
     top: 500px;
     right: 550px;
+}
+#LogoCloud {
+    top: 200px;
 }
 @keyframes loadAnimation {
     0% { 
