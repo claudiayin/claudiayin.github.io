@@ -46,8 +46,7 @@ body {
 #mainCloud,
 #rightCloud,
 #hamsterCloud,
-#hamsterCloud2,
-#LogoCloud {
+#hamsterCloud2 {
     top: 120px;
     width: 200px;
 }
