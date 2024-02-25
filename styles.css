@@ -30,6 +30,7 @@ body {
     position: absolute;
     z-index: 2;
     margin-top: 10px;
+    justify-content: center;
 }
 #Home img {
     position: absolute;
