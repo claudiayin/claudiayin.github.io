@@ -1,10 +1,10 @@
-*{
+* {
  font-family: sans-serif;
  color: white;  
  padding: 0px;
  margin: 0px; 
 }
-body{
+body {
     overflow-x: hidden;   
 }
 #Home {
@@ -17,45 +17,47 @@ body{
     align-items: center;
     overflow: hidden;
 }
-#Home h1{
+#Home h1 {
     color: white;
     position: absolute;
     font-size: 50px;
     z-index: 2;
     margin-top: 10px; 
 }
-#Home img{
+#Home img {
     position: absolute;
     bottom: 0px;
 }
-#Mountain1{
+#Mountain1 {
     position: absolute;
     margin-bottom: 106px;
     margin-left: 60px;
     width: 100%;
     pointer-events: none;
 }
-#Mountain2{
+#Mountain2 {
     width: 100%;
     z-index: 3;
     pointer-events: none;
 }
-#leftCloud #mainCloud #rightCloud{
+#leftCloud,
+#mainCloud,
+#rightCloud {
     top: 120px;
     width: 200px;
 }
-#leftCloud{
+#leftCloud {
     left: 20px;
 }
 #rightCloud{
     right: 20px;
 }
 @keyframes loadAnimation {
-    0%{
+    0% { 
         opacity: 0;
         transform: translateY(-100%);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(0%);
     }
@@ -71,12 +73,13 @@ header nav{
     font-size: 22px;
     animation: loadAnimation 2s;
 }
-header nav span{
+header nav span {
     width: 50%;
+    padding-right: 60px;
     display: flex;
     justify-content: space-around;
 }
-header nav span a{
+header nav span a {
     text-decoration: none;
     position: relative;
 }
@@ -91,20 +94,20 @@ header nav span a::before{
     bottom: -5px;
     transition: 0.3s;
 }
-header nav span a:hover::before{
+header nav span a:hover::before {
     width: 100%;
 }
-#About{
+#About {
     background-color: #c20772;
     padding: 0px 100px;
     min-height: 100vh;
     font-size: 20px;
 }
-#About h1{
+#About h1 {
     padding-top: 50px;
     font-size: 40px;
 }
-#About p{
+#About p {
     padding: 30px 0px;
 }
 .active {
