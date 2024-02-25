@@ -31,6 +31,7 @@ body {
     z-index: 2;
     margin-top: 10px;
     justify-content: center;
+    right: 500px;
 }
 #Home img {
     position: absolute;
